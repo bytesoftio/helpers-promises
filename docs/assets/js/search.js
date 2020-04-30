@@ -1,0 +1,3 @@
+var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"64":"Function","65536":"Type literal","4194304":"Type alias"},"rows":[{"id":0,"kind":4194304,"name":"CreateTimeout","url":"globals.html#createtimeout","classes":"tsd-kind-type-alias"},{"id":1,"kind":65536,"name":"__type","url":"globals.html#createtimeout.__type","classes":"tsd-kind-type-literal tsd-parent-kind-type-alias","parent":"CreateTimeout"},{"id":2,"kind":64,"name":"createTimeout","url":"globals.html#createtimeout","classes":"tsd-kind-function"}]};

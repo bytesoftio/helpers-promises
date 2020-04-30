@@ -1,0 +1,1 @@
+export type CreateTimeout = (delay: number) => Promise<void>
