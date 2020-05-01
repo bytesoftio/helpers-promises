@@ -2,8 +2,7 @@
 
 ## Installation
 
-`yarn add @bytesoftio/helpers-promises` or `npm install @bytesoftio/helpers
--promises`
+`yarn add @bytesoftio/helpers-promises` or `npm install @bytesoftio/helpers-promises`
 
 ## Table of contents
 
