@@ -12,8 +12,7 @@
 
 
 - [Description](#description)
-- [Usage](#usage)
-  - [createTimeout](#createtimeout)
+- [createTimeout](#createtimeout)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -21,9 +20,7 @@
 
 A collection of promises related helpers.
 
-## Usage
-
-### createTimeout
+## createTimeout
 
 A promisified verion of the `setTimeout` function.
 
