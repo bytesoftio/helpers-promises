@@ -1,4 +1,4 @@
-# @bytesoftio/use-async
+# @bytesoftio/helpers-promises
 
 ## Installation
 
