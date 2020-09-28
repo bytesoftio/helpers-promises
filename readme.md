@@ -12,6 +12,7 @@
 
 - [Description](#description)
 - [createTimeout](#createtimeout)
+- [createPromise](#createpromise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -27,4 +28,21 @@ A promisified verion of the `setTimeout` function.
 import { createTimeout } from "@bytesoftio/helpers-promises"
 
 await createTimeout(2000)
+```
+
+## createPromise
+
+Create a promise that you can pass around without specifying the resolve function first.
+
+```ts
+import { createPromise } from "@bytesoftio/helpers-promises"
+
+const promise = createPromise()
+
+// pass promise to another function
+runWhenResolved(promise)
+
+promise.resolve("your data")
+// or
+promise.reject("reason...")
 ```
