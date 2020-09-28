@@ -1,5 +1,5 @@
 export type ControllablePromise<TResult = any> = Promise<TResult> & {
-  resolve: (result: TResult | PromiseLike<TResult>) => void
+  resolve: (result?: TResult | PromiseLike<TResult>) => void
   reject: (reason?: any) => void
 }
 
